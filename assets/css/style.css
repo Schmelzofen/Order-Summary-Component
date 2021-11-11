@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Red Hat Display;
+}
+
+body {
+  background: url(../img/pattern-background-desktop.svg) center top no-repeat, #e0e8ff;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .main .main--section--order {
+  background: white;
+  text-align: center;
+  margin: 0 18.1%;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+body .main .main--section--order > img {
+  max-width: 100%;
+  border-radius: 10px 10px 0 0;
+  padding: 0 0 7% 0;
+}
+body .main .main--section--order > p:nth-of-type(1) {
+  color: #7280a7;
+  margin: 0 auto -20px;
+  width: 80%;
+  line-height: 25px;
+}
+body .main .main--section--order h1 {
+  color: #1f2f56;
+  margin: 0 0 5% 0;
+}
+body .main .main--section--order .section--div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #f5f7ff;
+  margin: 35px 10%;
+  padding: 5% 0;
+}
+body .main .main--section--order .section--div > p {
+  color: #1f2f56;
+}
+body .main .main--section--order .section--div > p:hover {
+  cursor: pointer;
+  color: #7280a7;
+}
+body .main .main--section--order .section--div .div--div h2 {
+  color: #1f2f56;
+  font-size: 1.1rem;
+  margin-right: 50px;
+  padding: 0 0 2px 0;
+}
+body .main .main--section--order .section--div .div--div p {
+  color: #7280a7;
+  margin-right: 50px;
+}
+body .main .main--section--order .proceed {
+  padding: 3% 23.2%;
+  color: #f5f7ff;
+  background: #3829e0;
+  font-weight: bold;
+  transition: 0.5s linear;
+  border: none;
+  font-size: 1rem;
+}
+body .main .main--section--order .proceed:active {
+  transform: scale(0.9);
+  transition: 0.3s ease;
+  background: #766bf2;
+}
+body .main .main--section--order .proceed:hover {
+  cursor: pointer;
+}
+body .main .main--section--order .cancel {
+  color: #1f2f56;
+  margin: 3% 0 0 0;
+  padding: 3% 0 6% 0;
+  font-weight: bold;
+}
+body .main .main--section--order .cancel:hover {
+  cursor: pointer;
+}
+
+.border-radius {
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    background: url(../img/pattern-background-mobile.svg) top no-repeat, #e0e8ff;
+  }
+  body .main .main--section--order {
+    margin: 0 4.1%;
+  }
+  body .main .main--section--order .proceed {
+    padding: 4% 22.2%;
+  }
+  body .main .main--section--order .section--div {
+    margin: 35px 5%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
