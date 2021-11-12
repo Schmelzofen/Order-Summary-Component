@@ -13,15 +13,15 @@
     font-family: Red Hat Display;
 }
 body{
-    background: url(../img/pattern-background-desktop.svg) center top no-repeat, hsl(225, 100%, 94%);
+    background: url(../img/pattern-background-desktop.svg) top/contain no-repeat, hsl(225, 100%, 94%);
     height: 100vh;
     width: 100vw;
-    @include display-flex(flex, center, center);
+    @include display-flex(flex, center, center–);
     .main{
         .main--section--order{
             background: white;
             text-align: center;
-            margin: 0 18.1%;
+            margin: 2% 19%;
             box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
             > img{
                 max-width: 100%;
@@ -111,4 +111,13 @@ body{
         }
     }
 
+}
+
+@media only screen and (max-width: 414px){
+    body .main .main--section--order {
+        margin: 38% 5% 0 5%;
+        .section--div{
+            margin: 35px 5%;
+        }
+    }
 }

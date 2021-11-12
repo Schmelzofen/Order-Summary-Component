@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
 * {
   padding: 0;
@@ -7,17 +8,17 @@
 }
 
 body {
-  background: url(../img/pattern-background-desktop.svg) center top no-repeat, #e0e8ff;
+  background: url(../img/pattern-background-desktop.svg) top/contain no-repeat, #e0e8ff;
   height: 100vh;
   width: 100vw;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center–;
 }
 body .main .main--section--order {
   background: white;
   text-align: center;
-  margin: 0 18.1%;
+  margin: 2% 19%;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 body .main .main--section--order > img {
@@ -100,6 +101,14 @@ body .main .main--section--order .cancel:hover {
   }
   body .main .main--section--order .proceed {
     padding: 4% 22.2%;
+  }
+  body .main .main--section--order .section--div {
+    margin: 35px 5%;
+  }
+}
+@media only screen and (max-width: 414px) {
+  body .main .main--section--order {
+    margin: 38% 5% 0 5%;
   }
   body .main .main--section--order .section--div {
     margin: 35px 5%;
