@@ -44,10 +44,13 @@ body{
                 margin: 35px 10%;
                 padding: 5% 0;
                 > p{
-                    color: hsl(223, 47%, 23%);
+                    color: hsl(245, 75%, 52%);
+                    text-decoration: underline;
                     &:hover{
                         cursor: pointer;
-                        color: hsl(224, 23%, 55%);
+                    }
+                    &:active{
+                        text-decoration: none;
                     }
                 }
                 .div--div{

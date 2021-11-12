@@ -45,11 +45,14 @@ body .main .main--section--order .section--div {
   padding: 5% 0;
 }
 body .main .main--section--order .section--div > p {
-  color: #1f2f56;
+  color: #3829e0;
+  text-decoration: underline;
 }
 body .main .main--section--order .section--div > p:hover {
   cursor: pointer;
-  color: #7280a7;
+}
+body .main .main--section--order .section--div > p:active {
+  text-decoration: none;
 }
 body .main .main--section--order .section--div .div--div h2 {
   color: #1f2f56;
